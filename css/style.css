@@ -820,3 +820,110 @@ input[type="text"], select, textarea {
 	-o-animation-name: fadeInUp;
 	animation-name: fadeInUp;
 }
+
+/* === Pricing plans == */
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);*/
+
+/*
+.promos,
+.promos :before,
+.promos :after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+*/
+
+.promos {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.promo {
+  margin: 1em .5em 1.625em;
+  padding: .25em 0 2em;
+  background: #FEFEFE;
+/*  font-family: 'Open Sans', sans-serif;*/
+  font-weight: 400;
+  line-height: 1.625;
+  color: #222222;
+  text-align: center;
+  box-shadow: 0 0 4px 1px rgba(200, 200, 200, 0.8);    
+}
+
+@media (min-width: 40em) {
+  .promo {
+    display: inline;
+    float: left;
+    width: 33.333%;
+    margin: 1em 0 0;
+  }
+  .promo.first {
+    border-right: none;
+  }
+  .promo.second {
+    float: right;
+    border-left: none;
+  }
+}
+.promo h4 {
+  margin: .25em 0 0;
+  font-size: 170%;
+  font-weight: normal;
+}
+.promo .features {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: #aaa;
+}
+.promo li {
+  padding: .25em 0;
+}
+.promo .brief {
+  color: #000;
+}
+.promo .price {
+  margin: .5em 0;
+  padding: .25em 0;
+  background: rgb(93, 130, 185);
+  font-size: 250%;
+  color: #eeeeee;
+}
+.promo .buy {
+  margin: 1em 0 0;
+}
+.promo button {
+  padding: 1em 3.25em;
+  border: none;
+  border-radius: 40px;
+  background: #eee;
+    
+  color: #000;
+  cursor: pointer;
+}
+.promo button:hover {
+  background: #488dfe;
+  color: #FFFFFF;    
+}
+
+.scale button {
+  background: rgb(93, 130, 185);
+  color: #FFFFFF;    
+}
+.scale button:hover {
+  background: #488dfe;
+}
+@media (min-width: 40em) {
+  .scale {
+    transform: scale(1.2);
+    box-shadow: 0 0 14px 1px rgba(150, 150, 150, 0.8);
+  }
+  .scale .price {
+    color: #fff;
+  }
+}
