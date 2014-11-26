@@ -1,21 +1,21 @@
 <?php
 // Who you want to recieve the emails from the form.
-$sendto = 'cosmin.stanciu@watt.at';
+$sendto = 'sales@streamkit.net';
 
 // The subject you'll see in your inbox
-$subject = 'A message from hepek service';
+$subject = 'Streamkit.net - Contact Request';
 
 // Message for the user when he/she doesn't fill in the form correctly.
 $errormessage = 'Looks like you are missing some info. Try again.';
 
 //Message for the user when he/she fills in the form correctly.
-$thanks = "Thanks for the email. We'll get back to you as soon as we can.";
+$thanks = "Thanks for the email. One of our representatives will be contacting you soon.";
 
 // Message for the bot when it fills in in at all.
 $honeypot = "You filled in the honeypot! If you're human, try again!";
 
 // Various messages displayed when the fields are empty.
-$emptyname =  'Entering your name?';
+$emptyname =  'Email?';
 $emptyemail = 'Entering your email address?';
 $emptymessage = 'Entering a message?';
 

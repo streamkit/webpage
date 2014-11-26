@@ -859,7 +859,7 @@ input[type="text"], select, textarea {
   .promo {
     display: inline;
     float: left;
-    width: 33.333%;
+    width: 25%;
     margin: 1em 0 0;
   }
   .promo.first {
