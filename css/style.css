@@ -60,9 +60,8 @@ p.center {
 }
 
 h4 {
-	font-size: 13px;
 	font-weight: 100;
-	color: #bbbdc0;
+	color: #676767;
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 1px;
@@ -94,8 +93,7 @@ a:hover {
 }
 
 #services i {
-	font-size: 8em;
-	color: #bbbdc0;
+	color: #12A5DF;
 	line-height: 1.2 !important;
 }
 
@@ -198,8 +196,9 @@ p.header {
 }
 
 #works-top-desktop {
-	background: #fff url(../img/balerina_bg_2.jpg) fixed no-repeat center;
+	background: #fff url(../img/balerina_bg_1.jpg) fixed no-repeat center;
 	background-size: cover;
+	height: 300px;
 }
 
 #works-top-mobile {
@@ -621,7 +620,7 @@ input[type="text"], select, textarea {
 }
 
 .thumbnail h4 {
-	color: #4d90fe;
+	color: #12A5DF;
 	padding: 20px;
 	margin: 0;
 	font-size: 20px;
@@ -631,8 +630,7 @@ input[type="text"], select, textarea {
 }
 
 .thumbnail span {
-	font-size: 13px;
-	color: #bbbdc0;
+	color: #676767;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 100;
