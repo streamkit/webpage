@@ -27,8 +27,7 @@ body {
 }
 
 .divide {
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 2%;
 }
 
 .divider {
@@ -196,7 +195,7 @@ p.header {
 }
 
 #works-top-desktop {
-	background: #fff url(../img/balerina_bg_1.jpg) fixed no-repeat center;
+	background: #fff url(../img/balerina_bg_3.jpg) fixed no-repeat center;
 	background-size: cover;
 	height: 300px;
 }

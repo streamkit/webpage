@@ -37,24 +37,24 @@
     <!--<div id="status">&nbsp;</div>-->
 <!--</div>-->
 <!--start navigation-->
-<!--<div class="navbar navbar-fixed-top" id="navigation">-->
-    <!--<div class="navbar-inner">-->
-        <!--<div class="container">-->
-            <!--<a href="#intro" class="brand"><img src="img/logo_sk_1.png" alt=""></a>-->
+<div class="navbar navbar-fixed-top" id="navigation">
+    <div class="navbar-inner">
+        <div class="container">
+            <a href="#intro" class="brand"><img src="img/logo_sk_1.png" alt=""></a>
 
-            <!--<div class="nav-collapse collapse">-->
-                <!--<ul class="nav pull-right">-->
-                    <!--&lt;!&ndash;<li><a href="#intro">Home</a></li>&ndash;&gt;-->
-                    <!--<li><a href="#services-top">Product</a></li>-->
-                    <!--&lt;!&ndash; <li><a href="#works-top">Works</a></li>-->
-                    <!--<li><a href="#gallery-top">Administration</a></li> &ndash;&gt;-->
-                    <!--<li><a href="#prices-top">Prices</a></li>-->
-                    <!--<li><a href="#contact-top">Contact</a></li>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</div>-->
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <!--<li><a href="#intro">Home</a></li>-->
+                    <li><a href="#services-top">Product</a></li>
+                    <!-- <li><a href="#works-top">Works</a></li>
+                    <li><a href="#gallery-top">Administration</a></li> -->
+                    <li><a href="#prices-top">Prices</a></li>
+                    <li><a href="#contact-top">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 <!--<section id="intro">-->
     <!--<div class="container">-->
         <!--<div class="row">-->
@@ -151,9 +151,7 @@
     </section>
     <!--start works-mobile header-->
     <section id="works-top-mobile" class="hidden-desktop">
-        <h1 class="header">Works</h1>
 
-        <p class="header">Any device, Anywhere</p>
     </section>
 </section>
 <!--start works-->
@@ -161,29 +159,77 @@
     <div class="container">
         <div class="row divide">
             <div class="span12">
-                <div id="carousel_horizontal_slide" class="carousel slide horizontal">
+            </div>
+            <div class="span7">
+                <div id="carousel_fade" class="carousel slide carousel-fade">
                     <div class="carousel-inner">
-                        <div class="active item">
-                            <img src="img/works/works_3.jpg" alt="">
+                        <div class="item active">
+                            <img src="img/vidiu.jpg" alt="">
                         </div>
                         <div class="inactive item">
-                            <img src="img/works/works_4.jpg" alt="">
+                            <img src="img/monarch.jpg" alt="">
                         </div>
                     </div>
-
+                    <button class="carousel-control left m-btn icn-only" href="#carousel_fade" data-slide="prev"><i class="fa fa-chevron-left"></i></button>
+                    <button class="carousel-control right m-btn icn-only" href="#carousel_fade" data-slide="next"><i class="fa fa-chevron-right"></i></button>
                 </div>
-                <h1>Fully Responsive</h1>
-                <h4>Works on your computer, mobile phone,tablet and TV.</h4>
             </div>
-            <div class="span6 offset3">
-                <p class="center">The
-                    content can be delivered on desktop and mobile devices such as IPhone, IPad
-                    and devices that have Android as their OS.</p>
+            <div class="span5 divide">
+                <h1>Broadcast without boundaries</h1>
+                <h4>One stream for multiple resolutions</h4>
+                <p>With StreamKit Cloud, you can easily broadcast from many locations. You don't need a high-end wired connection to stream and can use your 3G/4G cellular modem connection. <br/><br/>
+                    Our technology allow you to send one HD quality and have the StreamKit Cloud adjust the quality to lower resolutions so that your viewers have the best adapting streaming experience.<br/>
+                    StreamKit Cloud is compatible with common industry's hardware and software encoders including Teradek Vidiu, Digital Rapids ( Imagine Communications ), Wirecast, FMLE and others.
+                </p>
             </div>
-
         </div>
-
-
+        <div class="divider"></div>
+        <div class="row divide">
+            <div class="span5 divide">
+                <h1>Native Apps</h1>
+                <h4>Your own TV and Mobile App</h4>
+                <p>Go beyond web streaming and keep your audience closer by giving them access to your videos through native applications. <br/><br/>StreamKit enables you to create your own personalized application, with your own branding. Native applications make your live stream as well as your recorded videos easier to access from Android, iOS devices or TVs. TV Apps offered through Roku and Chromecast devices bring your content on the big TV screen. <br/><br/></be>
+                StreamKit keeps your applications up-to-date so that you don't need to worry about maintaining updates and compatibilities.</p>
+            </div>
+            <div class="span7">
+                <div id="carousel_fade_2" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/roku.jpg" alt="">
+                        </div>
+                        <div class="inactive item">
+                            <img src="img/chromecast.jpg" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control left m-btn icn-only" href="#carousel_fade_2" data-slide="prev"><i class="fa fa-chevron-left"></i></button>
+                    <button class="carousel-control right m-btn icn-only" href="#carousel_fade_2" data-slide="next"><i class="fa fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="row divide">
+        <div class="span12">
+        </div>
+        <div class="span7">
+            <div id="carousel_fade_3" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img/analytics_1.gif" alt="">
+                    </div>
+                    <div class="inactive item">
+                        <img src="img/monarch.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control left m-btn icn-only" href="#carousel_fade_3" data-slide="prev"><i class="fa fa-chevron-left"></i></button>
+                <button class="carousel-control right m-btn icn-only" href="#carousel_fade_3" data-slide="next"><i class="fa fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <div class="span5 divide">
+            <h1>Analytics</h1>
+            <h4>Knowing your audience is the key to success</h4>
+            <p>With StreamKit you have complete insight into your viewers real-time engagement with information such as time spent on video, device type, and bandwidth used with all beautifully organized and displayed in a user friendly dashboard.</p>
+        </div>
     </div>
 </section>
 
@@ -211,7 +257,7 @@
         <div class="row divide">
 
             <div class="span7">
-                <div id="carousel_fade" class="carousel slide carousel-fade">
+                <div id="carousel_fade_4" class="carousel slide carousel-fade">
                     <div class="carousel-inner">
                         <div class="active item">
                             <img src="img/works/admin_screenshot.jpg" alt="">
@@ -220,9 +266,9 @@
                             <img src="img/works/stats_1.png" alt="">
                         </div>
                     </div>
-                    <button class="carousel-control left m-btn icn-only" href="#carousel_fade" data-slide="prev"><i
+                    <button class="carousel-control left m-btn icn-only" href="#carousel_fade_4" data-slide="prev"><i
                             class="icon-chevron-left"></i></button>
-                    <button class="carousel-control right m-btn icn-only" href="#carousel_fade" data-slide="next"><i
+                    <button class="carousel-control right m-btn icn-only" href="#carousel_fade_4" data-slide="next"><i
                             class="icon-chevron-right"></i></button>
                 </div>
             </div>
