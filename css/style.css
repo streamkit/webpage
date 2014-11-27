@@ -27,7 +27,8 @@ body {
 }
 
 .divide {
-	margin-top: 2%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
 
 .divider {
@@ -188,6 +189,7 @@ p.header {
 #services-top-desktop {
 	background: #fff url(../img/balerina_bg_1.jpg) fixed no-repeat center;
 	background-size: cover;
+	height: 300px;
 }
 
 #services-top-mobile {
@@ -207,6 +209,7 @@ p.header {
 #gallery-top-desktop {
 	background: #fff url(../img/balerina_bg_3.jpg) fixed no-repeat center;
 	background-size: cover;
+	height: 300px;
 }
 
 #gallery-top-mobile {
@@ -214,21 +217,23 @@ p.header {
 }
 
 #prices-top-desktop {
-	background: #fff url(../img/balerina_bg_4.jpg) fixed no-repeat center;
+	background: #fff url(../img/balerina_bg_1.jpg) fixed no-repeat center;
 	background-size: cover;
+	height: 300px;
 }
 
 #prices-top-mobile {
-	background: #fff url(../img/balerina_bg_4.jpg) no-repeat center;
+	background: #fff url(../img/balerina_bg_1.jpg) no-repeat center;
 }
 
 #contact-top-desktop {
-	background: #fff url(../img/balerina_bg_2.jpg) fixed no-repeat center;
+	background: #fff url(../img/contact_bg.jpg) fixed no-repeat center;
 	background-size: cover;
+	height: 300px;
 }
 
 #contact-top-mobile {
-	background: #fff url(../img/balerina_bg_2.jpg) no-repeat center;
+	background: #fff url(../img/contact_bg.jpg) no-repeat center;
 }
 
 #services-top-desktop,
