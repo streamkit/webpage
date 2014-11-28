@@ -227,13 +227,13 @@ p.header {
 }
 
 #contact-top-desktop {
-	background: #fff url(../img/contact_bg.jpg) fixed no-repeat center;
+	background: #fff url(../img/balerina_bg_2.jpg) fixed no-repeat center;
 	background-size: cover;
 	height: 300px;
 }
 
 #contact-top-mobile {
-	background: #fff url(../img/contact_bg.jpg) no-repeat center;
+	background: #fff url(../img/balerina_bg_2.jpg) no-repeat center;
 }
 
 #services-top-desktop,
@@ -273,7 +273,6 @@ p.header {
 #prices  {
 	padding-right: 20px;
 	padding-left: 20px;
-	background: #f4f5f6;
 }
 
 #hint1  {
@@ -842,9 +841,8 @@ input[type="text"], select, textarea {
 
 .promos {
   max-width: 1140px;
-/*  margin: 0 auto;*/
-  margin: 13em auto 3em auto;   
-  height: 350px;   
+  height: 100%;
+	margin-top: 30px;
 }
 
 .promo {
@@ -852,6 +850,7 @@ input[type="text"], select, textarea {
   padding: 2em 0em 2em;
   background: #FEFEFE;
 /*  font-family: 'Open Sans', sans-serif;*/
+	font-family: "MuseoSans-300", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
   border-radius: 5px;    
   font-weight: 400;
   line-height: 1;
@@ -909,25 +908,25 @@ input[type="text"], select, textarea {
 }
 .promo.first .price {
     background-color:#eada42;
-    background-image: url("/img/bubbles-1-s3.jpg");
+    background-image: url("../img/bubbles-1-s3.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .promo.second .price {
     background-color:#e54e4b;
-    background-image: url("/img/bubbles-1-s3.jpg");
+    background-image: url("../img/bubbles-1-s3.jpg");
     background-repeat: no-repeat;
     background-position: top right;
 }
 .promo.third .price {
     background-color:#a7d155;
-    background-image: url("/img/bubbles-1-s2.jpg");
+    background-image: url("../img/bubbles-1-s2.jpg");
     background-repeat: no-repeat;
     background-position: right;
 }
 .promo.forth .price {
     background-color:#488dfe;
-    background-image: url("/img/bubbles-1-s4.jpg");
+    background-image: url("../img/bubbles-1-s4.jpg");
     background-repeat: no-repeat;
     background-position: top right;
 }
@@ -1001,7 +1000,7 @@ input[type="text"], select, textarea {
   }
 }
 .rwd-table th, .rwd-table td {
-  text-align: left;
+  text-align: center;
 }
 @media (min-width: 480px) {
   .rwd-table th, .rwd-table td {
@@ -1046,11 +1045,12 @@ input[type="text"], select, textarea {
 
 .splash-content {
 	position: absolute;
-	top: 40%;
+	top: 0px;
+	margin-top: 25%;
+	left: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
 	color: white;
-	opacity: 0.80;
-	right:25%;
-	left: 25%;
 	text-align: center;
 	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -1058,7 +1058,7 @@ input[type="text"], select, textarea {
 .splash-content h2 {
 	font-weight: 700;
 	font-size: 50px;
-	margin-top: 70px;
+	margin-top: 8%;
 }
 
 .splash-content p {
