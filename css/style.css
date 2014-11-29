@@ -435,6 +435,12 @@ input[type="text"], select, textarea {
 
 .navbar-fixed-top {
 	margin: auto;
+	border-style: solid;
+	border-bottom-width: 2px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-color: #12A5DF;
 }
 
 .navbar .btn-navbar {
@@ -842,7 +848,6 @@ input[type="text"], select, textarea {
 .promos {
   max-width: 1140px;
   height: 100%;
-	margin-top: 30px;
 }
 
 .promo {
@@ -857,6 +862,18 @@ input[type="text"], select, textarea {
   color: #222222;
   text-align: center;
   box-shadow: 0 0 4px 1px rgba(200, 200, 200, 0.8);    
+}
+
+span.fa-dollar {
+	font-size: 20px !important;
+	top: -13px;
+	position: relative;
+	right: 3px;
+	opacity: 0.5;
+}
+
+span.month {
+	font-size: 12px
 }
 
 @media (min-width: 40em) {
@@ -891,7 +908,7 @@ input[type="text"], select, textarea {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  color: #aaa;
+  color: #848484;
 }
 .promo li {
   padding: .25em 0;
@@ -905,30 +922,19 @@ input[type="text"], select, textarea {
   background: rgb(93, 130, 185);
   font-size: 250%;
   color: #FFFFFF;
+	line-height: inherit;
 }
 .promo.first .price {
-    background-color:#eada42;
-    background-image: url("../img/bubbles-1-s3.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color:#2F96B4;
 }
 .promo.second .price {
-    background-color:#e54e4b;
-    background-image: url("../img/bubbles-1-s3.jpg");
-    background-repeat: no-repeat;
-    background-position: top right;
+    background-color:#51A351;
 }
 .promo.third .price {
-    background-color:#a7d155;
-    background-image: url("../img/bubbles-1-s2.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
+    background-color:#F89406;
 }
 .promo.forth .price {
-    background-color:#488dfe;
-    background-image: url("../img/bubbles-1-s4.jpg");
-    background-repeat: no-repeat;
-    background-position: top right;
+    background-color:#CC423C;
 }
 .promo .buy {
   margin: 1em 0 0;

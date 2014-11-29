@@ -88,7 +88,8 @@
         <source src="http://10.0.0.6:1935/vod/mp4:intro.mp4/playlist.m3u8" type="audio/mp4; codecs=mp4a.40.2">
         <source src="rtsp://10.0.0.6:1935/vod/intro.mp4" type="video/mp4">
 -->
-        <source src="http://s3.eu-central-1.amazonaws.com/streamkit-net/videos/intro2.mp4" type="video/mp4">
+        <source src="http://d2lsn0496nq58b.cloudfront.net/videos/intro2.webm" type="video/webm">
+        <source src="http://d2lsn0496nq58b.cloudfront.net/videos/intro2.mp4" type="video/mp4">
     </video>
 
     <div class="splash-content">
@@ -166,6 +167,20 @@
 <!--start works-->
 <section id="works">
     <div class="container">
+
+        <div class="row divide">
+            <div class="span8 offset2">
+                <img src="img/works/works_3.jpg" alt="Any device">
+
+                <h1>Any device. Anywhere.</h1>
+                <h4>One Stream. Multiple devices.</h4>
+
+                <p class="center">Spread it to the world in the most professional way. <br/>We have used the right
+                    technologies so you can reach viewers through any desktop browser, mobile phone or tablet.
+                </p>
+            </div>
+        </div>
+        <div class="divider"></div>
         <div class="row divide">
             <div class="span12">
             </div>
@@ -254,23 +269,11 @@
                 <h4>Knowing your audience is the key to success</h4>
 
                 <p>With StreamKit you have complete insight into your viewers real-time engagement with information such
-                    as time spent on video, device type, and bandwidth used with all beautifully organized and displayed
+                    as time spent on video, device type, and bandwidth used, displayed
                     in a user friendly dashboard.</p>
             </div>
         </div>
-        <div class="divider"></div>
-        <div class="row divide">
-            <div class="span8 offset2">
-                <img src="img/works/works_3.jpg" alt="Any device">
 
-                <h1>Any device. Anywhere.</h1>
-                <h4>One Stream. Multiple devices.</h4>
-
-                <p class="center">Spread it to the world in the most professional way. <br/>We have used the right
-                    technologies so you can reach viewers through any desktop browser, mobile phone or tablet.
-                </p>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -296,8 +299,8 @@
 
             <div class="span8 offset2">
                 <h1>Prices</h1>
-                <h4>Unlimited streaming, unlimited performance</h4>
-                <!--<p class="center">We provide spiritual, education, and sports organizations with a complete kit for streaming live and on-demand events.</p>-->
+                <h4>Unlimited streaming, unlimited performance <br/> try it free</h4>
+                <br/>
             </div>
 
             <div class="promos">
@@ -306,12 +309,23 @@
                     <h3>Web Anywhere</h3>
                     <ul class="features">
                         <li class="brief">Any device. Anywhere.</li>
-                        <li class="price">$39</span></li>
+                        <li class="price"><span class="fa fa-dollar"></span>39<span class="month">/month</span></li>
                         <li>Unlimited viewers</li>
                         <li>Embed anywhere</li>
                         <li>Ad-free</li>
-                        <li class="buy">
-                            <button>Sign up</button>
+                        <li>                        
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="VE7JNUCQUHNVQ">
+                            <input type="hidden" name="on0" value="">
+                            <select name="os0">
+                                <option value="$39/month - Billed Anualy">$39/month - billed annually</option>
+                                <option value="$52/month - month-to-month">$52/month - month-to-month</option>
+                            </select>
+                                <br/>
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="submit" style="margin-top: 10px;" name="submit"  class="btn btn-info" value="SELECT PLAN" />
+                        </form>
                         </li>
                     </ul>
             
@@ -323,24 +337,30 @@
                         <li class="price">Custom</li>
                         <li>+ Custom software solutions</li>
                         <li>+ Multi CDN support</li>
-                        <li>And more</li>
-                        <li class="buy">
-                            <a href="#contact-top">
-                                <button>Contact us</button>
-                            </a>
-                        </li>
+                        <li><a href="#contact"><input type="submit" style="margin-top: 10px;" name="submit"  class="btn btn-danger" value="CONTACT US" /></a></li>
                     </ul>
                 </div>
                 <div class="promo second">
                     <h3>TV Plus</h3>
                     <ul class="features">
                         <li class="brief">Stream on the big TV screens</li>
-                        <li class="price">$199</li>
+                        <li class="price"><span class="fa fa-dollar"></span>199<span class="month">/month</span></li>
                         <li>+ Personalized Roku TV app</li>
                         <li>+ Personalized mobile app</li>
                         <li>And more</li>
-                        <li class="buy">
-                            <button>Sign up</button>
+                        <li>
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="52VBECYALWW3G">
+                                <input type="hidden" name="on0" value="">
+                                <select name="os0">
+                                    <option value="$199/month - 1 year contract">$199/month - 1 year contract</option>
+                                    <option value="$265/month - month-to-month">$265/month - month-to-month</option>
+                                </select>
+                                <br/>
+                                <input type="hidden" name="currency_code" value="USD">
+                                <input type="submit" style="margin-top: 10px;" name="submit"  class="btn btn-success" value="SELECT PLAN" />
+                            </form>
                         </li>
                     </ul>
                 </div>
@@ -348,12 +368,23 @@
                     <h3>Standard</h3>
                     <ul class="features">
                         <li class="brief">Go native on mobile</li>
-                        <li class="price">$99</li>
+                        <li class="price"><span class="fa fa-dollar"></span>99<span class="month">/month</span></li>
                         <li>+ Native mobile app for your channel</li>
                         <li>+ Live transcoding for adaptive qualities</li>
                         <li>And more</li>
-                        <li class="buy">
-                            <button>Sign up</button>
+                        <li>
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="PB6VPP3333QJ4">
+                                <input type="hidden" name="on0" value="">
+                                <select name="os0">
+                                    <option value="$99/month - 1 year contract">$99/month - 1 year contract</option>
+                                    <option value="$132/month - month-to-month">$132/month - month-to-month</option>
+                                </select>
+                                <br/>
+                                <input type="hidden" name="currency_code" value="USD">
+                                <input type="submit" style="margin-top: 10px;" name="submit" class="btn btn-warning" value="SELECT PLAN" />
+                            </form>
                         </li>
                     </ul>
                 </div>
@@ -524,64 +555,13 @@
                     </td>
 
                     <td>
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="VE7JNUCQUHNVQ">
-                            <input type="hidden" name="on0" value="">
-                            <select name="os0">
-                                        <option value="$39/month - Billed Anualy">$39/month - Billed Anualy : $468.00
-                                            USD - yearly
-                                        </option>
-                                        <option value="$52/month - month-to-month">$52/month - month-to-month : $52.00
-                                            USD - monthly
-                                        </option>
-                                    </select>
-                            <input type="hidden" name="currency_code" value="USD">
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_LG.gif"
-                                   border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
-                                 height="1">
-                        </form>
+
                     </td>
                     <td>
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="PB6VPP3333QJ4">
-                            <input type="hidden" name="on0" value="">
-                            <select name="os0">
-                                <option value="$99/month - 1 year contract">$99/month - 1 year contract : $99.00
-                                    USD - monthly
-                                </option>
-                                <option value="$132/month - month-to-month">$132/month - month-to-month :
-                                    $132.00 USD - monthly
-                                </option>
-                            </select>
-                            <input type="hidden" name="currency_code" value="USD">
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_LG.gif"
-                                   border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
-                                 height="1">
-                        </form>
+
                     </td>
                     <td>
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="52VBECYALWW3G">
-                            <input type="hidden" name="on0" value="">
-                            <select name="os0">
-                            <option value="$199/month - 1 year contract">$199/month - 1 year contract :
-                                $199.00 USD - monthly
-                            </option>
-                            <option value="$265/month - month-to-month">$265/month - month-to-month :
-                                $265.00 USD - monthly
-                            </option>
-                            </select>
-                            <input type="hidden" name="currency_code" value="USD">
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_LG.gif"
-                                   border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
-                                 height="1">
-                        </form>
+
                     </td>
                 </tr>
 
@@ -659,14 +639,14 @@
     <div class="container">
         <div class="row divide">
             <!--logo and copyright-->
-            <div class="span3">
+            <div class="span4">
                 <a href="#intro" class="brand"><img src="img/logo_sk_1.png" alt=""></a>
 
-                <p>2013 &#169; StreamKit LLC</p><br>
+                <p>&#169; 2014 StreamKit LLC. All rights reserved.</p><br>
                 <br>
             </div>
             <!--footer menu-->
-            <div class="span2 offset6">
+            <div class="span2 offset5">
                 <ul>
                     <li><h5>Menu</h5></li>
                     <li><a href="#services">Product</a></li>
